@@ -1,0 +1,231 @@
+{
+  "direction": "rtl",
+  "name": "العربية",
+  "appbar": {
+    "go_to_your_profile": "اذهب الى حسابك"
+  },
+  "pages": {
+    "not_found": {
+      "title": "غير متوفر",
+      "message": "لا يمكننا ايجاد ما تبحث عنة",
+      "go_to_home": "الى الرئيسية"
+    },
+    "unauthorized": {
+      "title": "ممنوع",
+      "message": "غير مسموح لك بالوصول الى هذا المصدر",
+      "go_to_home": "الى الرئيسية"
+    },
+    "too_many_requests": {
+      "title": "عدد الطلبات كبير",
+      "message": "انت تستخدم هذا الموقع اسرع من المتوقع رجاء حاول مرة اخرى بعد دقيقة",
+      "go_to_home": "الى الرئيسية"
+    },
+    "login": {
+      "title": "مرحبا بك في لوحة التحكم الادارية لنظام SpaceKom",
+      "subtitle": "سجل الدخول الى حسابك",
+      "fields": {
+        "user_name": {
+          "label": "اسم المتخدم",
+          "placeholder": "رجاء ادخل اسم المستخدم الاداري الخاص بك"
+        },
+        "password": {
+          "label": "كلمة المرور",
+          "placeholder": "رجاء ادخل كلمة المرور هنا"
+        }
+      },
+      "actions": {
+        "login": "تسجيل الدخول"
+      }
+    },
+    "logout": {
+      "logout": "تسجيل الخروج",
+      "loading": "جاري تسجيل الخروج",
+      "unknown_error": "حدث خطأ ما"
+    },
+    "roles": {
+      "title": "الادوار الادارية",
+      "subtitle": "الادوار الادارية عبارة عن مجموعات بها صلاحيات الوصول",
+      "datatable": {
+        "headers": {
+          "title": "اسم",
+          "permissions": "الصلاحيات",
+          "supervisors": "المشرفين",
+          "actions": "عمليات",
+          "remove": "ازالة"
+        }
+      }
+    },
+    "create_role": {
+      "title": "إضافة دور اداري جديد",
+      "form": {
+        "name": {
+          "placeholder": "ادخل اسم الدور الاداري",
+          "label": "الاسم",
+          "errors": {
+            "empty": "رجاء قم بادخال اسم"
+          }
+        },
+        "permissions": {
+          "label": "الصلاحيات",
+          "placeholder": "قم بتحديد صلاحيات هذا الدور الاداري",
+          "errors": {
+            "empty": "رجاء قم بتحديد صلاحية واحدة على الاقل"
+          }
+        },
+        "save": "حفظ",
+        "cancel": "إلغاء"
+      }
+    },
+    "supervisors": {
+      "title": "المشرفين",
+      "subtitle": "المشرفين ومدراء النظام",
+      "list": {
+        "datatable": {
+          "headers": {
+            "name": "الاسم",
+            "user_name": "اسم المستخدم",
+            "roles": "الادوار الادارية",
+            "status": "الحالة",
+            "last_activity": "اخر ظهور"
+          }
+        }
+      }
+    },
+    "create_supervisor": {
+      "title": "إضافة مشرف جديد",
+      "copy_generated_password": "رجاء قم بنسخ كلمة المرور المولدة تلقائيا",
+      "password_copied_successfully": "تم نسخ كلمة المرور",
+      "form": {
+        "name": {
+          "label": "الاسم",
+          "placeholder": "ادخل اسم المشرف",
+          "errors": {
+            "empty": "رجاء ادخل الاسم"
+          }
+        },
+        "user_name": {
+          "label": "اسم المستخدم",
+          "placeholder": "رجاء ادخل اسم مستخدم فريد خاص يهذا المشرف",
+          "errors": {
+            "empty": "رجاء ادخل اسم المستخدك"
+          }
+        },
+        "notes": {
+          "label": "ملاحظات",
+          "placeholder": "ادخل ملاحظات عن هذا الموظف",
+          "errors": {
+            "empty": "رجاء ادخل نص الملاحظات"
+          }
+        },
+        "roles": {
+          "label": "الأدوار الادارية",
+          "placeholder": "قم بتحديد الادوار الادارية لهذا المشرف",
+          "errors": {
+            "empty": "رجاء قم بتحديد دور اداري واحد على الاقل"
+          }
+        }
+      }
+    },
+    "show_supervisor": {
+      "title": "مشرف اداري",
+      "password": "كلمة المرور",
+      "tabs": {
+        "basic": "بيانات اساسية",
+        "roles": "الادوار الادارية",
+        "operations": "عمليات"
+      }
+    }
+  },
+  "navigation": {
+    "drawer": {
+      "roles": "الادوار الادارية",
+      "supervisors": "المشرفين"
+    }
+  },
+  "components": {
+    "list_permissions": {
+      "edit_btn": "تعديل",
+      "save_edit_btn": "حفظ",
+      "cancel_edit_btn": "إلغاء"
+    },
+    "search_field": {
+      "placeholder": "ادخل نص البحث",
+      "default_text": "اضافة جديد"
+    },
+    "editable": {
+      "field_tooltip": "اضغط مرتين هنا للتعديل",
+      "btn_tooltip": "اضغط مرة واحدة للتعديل"
+    },
+    "pupup_edit": {
+      "title": "تعديل",
+      "actions": {
+        "save": "حفظ",
+        "cancel": "إلغاء"
+      }
+    },
+    "confirm_delete": {
+      "title": "تأكيد الحذف",
+      "message": "هل انت متأكد من انك تريد ازالة هذا العنصر ؟"
+    },
+    "supervisor_roles_tab": {
+      "roles": {
+        "title": "الادوار الادارية",
+        "edit_btn": "تعديل"
+      },
+      "permissions": {
+        "title": "الصلاحيات"
+      }
+    },
+    "supervisor_operation_tab": {
+      "remove_btn": "إزالة المشرف",
+      "suspend_btn": "تعطيل الحساب",
+      "activate_btn": "تفعيل الحساب",
+      "reset_password_btn": "تهيئة كلمة المرور"
+    },
+    "locked_view": {
+      "tooltips": {
+        "open": "اضغط مرتين لفتح القفل",
+        "lock": "اضغط للقفل"
+      }
+    }
+  },
+  "errors": {
+    "details": {
+      "title": "التفاصيل"
+    }
+  },
+  "permissions": {
+    "permissions::retrieve": "عرض الصلاحيات",
+    "supervisors::add": "إضافة مشرف",
+    "supervisors::remove": "إزالة مشرف",
+    "supervisors::retrieve": "عرض مشرف",
+    "supervisors::update": "تعديل مشرف",
+    "supervisors::view_role": "عرض الادوار الادارية لمشرف",
+    "supervisors::set_role": "تحديد الادوار الادارية لمشرف",
+    "supervisors::revoke_role": "الغاء الادوار الادارية لمشرف",
+    "supervisors::view_permissions": "عرض صلاحيات مشرف",
+    "roles::add": "إضافة دور اداري",
+    "roles::remove": "ازالة دور اداري",
+    "roles::retrieve": "عرض الادوار الادارية",
+    "roles::update": "تعديل دور اداري",
+    "roles::view_permissions": "عرض صلاحيات دور اداري",
+    "roles::set_permissions": "تحديد صلاحيات دور اداري"
+  },
+  "models": {
+    "supervisor": {
+      "status": {
+        "ACTIVE": "مفعل",
+        "SUSPENDED": "متوقف"
+      }
+    }
+  },
+  "misc": {
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "edit": "تعديل",
+    "save": "حفظ",
+    "remove": "إزالة",
+    "password": "كلمة المرور",
+    "confirm_password": "تأكيد كلمة المرور"
+  }
+}
